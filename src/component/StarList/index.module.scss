@@ -1,0 +1,40 @@
+@import "../../theme/styles/palette";
+@import "../../theme/styles/mixins";
+
+
+.gridContainer{
+  @include gridContainer
+}
+
+.leftBlock{
+  background-color: #333333;
+  border-radius: 15px;
+}
+
+.rightBlock{
+  background-color: $backGray;
+  border-radius: 15px;
+  font-size: x-large;
+  text-align: -webkit-center;
+}
+.buttonRight{
+    position: absolute;
+    width: 25%;
+}
+img{
+  width: 25%;
+  border-radius: 20px;
+}
+
+button{
+  background-color: $backGray;
+  border-radius: 5px;
+  border: 1px solid gray;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 50%;
+  display: block;
+  font-weight: bold;
+  margin: 15px 0px;
+}
